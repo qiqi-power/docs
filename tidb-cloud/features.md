@@ -16,7 +16,7 @@ This document lists the feature support status for different TiDB Cloud plans, i
 - 🚧: **Under development**.
 - ❌: **Currently not available**.
 
-<table><thead>
+<table className="sticky-header"><thead>
   <tr>
     <th>Category</th>
     <th>Feature</th>
@@ -116,7 +116,7 @@ This document lists the feature support status for different TiDB Cloud plans, i
   <tr>
     <td>Backup file recycle bin</td>
     <td style="text-align:center; font-size: 14px;">❌</td>
-    <td style="text-align:center; font-size: 14px;">❌</td>
+    <td style="text-align:center;">✅</td>
     <td style="text-align:center;">✅</td>
     <td style="text-align:center;">✅</td>
   </tr>
@@ -145,7 +145,7 @@ This document lists the feature support status for different TiDB Cloud plans, i
   <tr>
     <td>Change data replication to Kafka or other MySQL-compatible databases using changefeeds</td>
     <td style="text-align:center; font-size: 14px;">❌</td>
-    <td style="text-align:center;">✅ <br/><span style="font-size: 14px; white-space: nowrap;">(Public preview)</span></td>
+    <td style="text-align:center;">🔒</td>
     <td style="text-align:center;">✅</td>
     <td style="text-align:center;">✅</td>
   </tr>
